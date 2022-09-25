@@ -1,5 +1,6 @@
 from .block_quote import BlockQuote
 from .code_block import CodeBlock
+from .expand import Expand
 from .document import Document
 from .heading import Heading
 from .lists import BulletList, OrderedList, ListItem
@@ -16,6 +17,7 @@ from .inline_nodes.marks.strong import Strong
 
 __all__ = ["block_quote",             \
            "code_block",              \
+           "expand",                  \
            "document",                \
            "heading",                 \
            "panel",                   \
